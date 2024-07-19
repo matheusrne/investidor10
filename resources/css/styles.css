@@ -1,0 +1,130 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e9ecef; /* Tom de cinza claro */
+    margin: 0;
+    padding-top: 70px; /* Espaço para o header fixo */
+}
+
+/* Header Styles */
+header.navbar {
+    background-color: #007bff; /* Azul mais suave */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header .navbar-brand img.logo {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* Navbar Styles */
+.navbar-nav .nav-link {
+    font-weight: 500;
+    color: #ffffff; /* Branco */
+    padding: 10px 15px;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #0056b3; /* Azul mais escuro */
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Search Form Styles */
+header .form-control {
+    border-radius: 20px;
+    border: 2px solid #ced4da;
+    transition: border-color 0.3s ease;
+}
+
+header .form-control:focus {
+    border-color: #007bff; /* Azul */
+    box-shadow: none;
+}
+
+header .btn-outline-success {
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+header .btn-outline-success:hover {
+    background-color: #007bff; /* Azul */
+    color: white;
+}
+
+/* Content Styles */
+.news-card {
+    height: 250px;
+    background-color: #ffffff; /* Branco */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.news-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #343a40; /* Cinza escuro */
+    color: #f8f9fa; /* Branco claro */
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Media Queries */
+@media (max-width: 576px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-nav .nav-item {
+        margin-bottom: 10px;
+    }
+
+    .form-control, .btn {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+/* Estilos específicos para o formulário de categoria */
+.form-container {
+    background-color: #ffffff; /* Branco */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.form-container .form-label {
+    font-weight: 500;
+    color: #333333; /* Cinza escuro */
+}
+
+.form-container .form-control {
+    border-radius: 10px;
+    border: 2px solid #ced4da;
+}
+
+.form-container .form-control:focus {
+    border-color: #007bff; /* Azul */
+    box-shadow: none;
+}
+
+.form-container .btn-primary {
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.form-container .btn-primary:hover {
+    background-color: #0056b3; /* Azul mais escuro */
+    border-color: #004085; /* Azul mais escuro */
+}
