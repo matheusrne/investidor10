@@ -1,5 +1,5 @@
 ### Passo a passo
-Clone Repositório
+Clone o Repositório
 ```sh
 git clone https://github.com/matheusrne/investidor10.git investidor10
 ```
