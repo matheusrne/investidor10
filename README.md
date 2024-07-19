@@ -1,13 +1,16 @@
-Passo a passo
+### Passo a passo
 Clone Repositório
-
-git clone https://github.com/matheusrne/investidor10.git i10
+```sh
+git clone https://github.com/matheusrne/investidor10.git investidor10
+```
 
 Crie o Arquivo .env
-
-cd i10/
+```sh
+cd investidor10/
 cp .env.example .env
+```
 
 Suba os containers do projeto
-
+```sh
 ./vendor/bin/sail up -d
+```
